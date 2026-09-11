@@ -204,6 +204,13 @@ nav.links a.mobile-join-btn{display:none}
   text-shadow:0 4px 24px rgba(0,0,0,.55);
 }
 .hero h1 em{font-style:normal;color:#ffc91f}
+.hero p.hero-subtitle{
+  font-family:"Big Shoulders Display","Arial Narrow",sans-serif;font-weight:700;
+  font-size:clamp(1.1rem,2.5vw,1.6rem);letter-spacing:.04em;text-transform:uppercase;
+  color:#fff;margin-top:-8px;text-shadow:0 2px 10px rgba(0,0,0,.5);
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.hero p.hero-subtitle .star{color:#ffc91f}
 .hero p.lede{color:#EDF1F9;max-width:56ch;font-size:1.05rem;text-shadow:0 2px 14px rgba(0,0,0,.6)}
 .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 
