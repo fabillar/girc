@@ -199,7 +199,7 @@ nav.links a.mobile-join-btn{display:none}
 }
 .hero .eyebrow{color:var(--brass-bright);text-shadow:0 2px 10px rgba(0,0,0,.5)}
 .hero h1{
-  color:#fff;font-weight:900;font-size:clamp(2.4rem,7vw,4.4rem);line-height:.98;
+  color:#fff;font-weight:900;font-size:clamp(2.2rem,7vw,4.4rem);line-height:.98;
   letter-spacing:.005em;margin-block:10px 14px;
   text-shadow:0 4px 24px rgba(0,0,0,.55);
 }
@@ -515,6 +515,7 @@ footer{border-top:1px solid var(--border);padding-block:36px;background:var(--bg
 .form-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .membership-actions{display:grid;grid-template-columns:1fr 3fr;width:100%;flex-wrap:unset}
 .membership-actions .btn{width:100%}
+.btn-text-short{display:none}
 .form-note{font-size:.82rem;color:var(--ink-soft)}
 .form-fine-print{font-size:.76rem;color:var(--ink-soft);margin:0}
 
@@ -691,4 +692,22 @@ footer{border-top:1px solid var(--border);padding-block:36px;background:var(--bg
   .hero-ctas .btn{width:100%;max-width:320px}
   .price strong{font-size:2.4rem}
   .modal-flyer .modal-foot{display:none}
+  .membership-actions{grid-template-columns:1fr 1fr}
+  .btn-text-full{display:none}
+  .btn-text-short{display:inline}
+}
+
+/* ---------- scroll to top ---------- */
+.scroll-top-btn{
+  position:fixed;right:20px;bottom:20px;z-index:60;
+  width:44px;height:44px;display:flex;align-items:center;justify-content:center;
+  background:var(--navy);color:#fff;border:1px solid var(--border);border-radius:50%;
+  box-shadow:var(--shadow-lift);cursor:pointer;
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background-color .2s ease;
+}
+.scroll-top-btn:hover{background:var(--navy-2)}
+.scroll-top-btn.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+@media (max-width:640px){
+  .scroll-top-btn{right:14px;bottom:14px;width:40px;height:40px}
 }

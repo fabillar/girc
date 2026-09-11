@@ -355,7 +355,7 @@
         </label>
         <div class="form-actions membership-actions">
           <button class="btn btn-outline" id="closeMembership2" type="button">Cancel</button>
-          <button class="btn btn-crimson" type="submit">Submit Membership Application</button>
+          <button class="btn btn-crimson" type="submit"><span class="btn-text-full">Submit Membership Application</span><span class="btn-text-short">Register</span></button>
         </div>
         <p class="form-fine-print" id="membershipFormNote" role="status" aria-live="polite"></p>
       </form>
@@ -619,8 +619,25 @@
       openModal(joinCfg);
     });
   }
+
+  var scrollTopBtn = document.getElementById('scrollTopBtn');
+  if(scrollTopBtn){
+    var toggleScrollTopBtn = function(){
+      if(window.scrollY > 480){ scrollTopBtn.classList.add('is-visible'); }
+      else { scrollTopBtn.classList.remove('is-visible'); }
+    };
+    toggleScrollTopBtn();
+    window.addEventListener('scroll', toggleScrollTopBtn, { passive: true });
+    scrollTopBtn.addEventListener('click', function(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 })();
 </script>
+
+<button type="button" id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
 
 </body>
 </html>
