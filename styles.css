@@ -667,6 +667,7 @@ footer{border-top:1px solid var(--border);padding-block:36px;background:var(--bg
   nav.links a.mobile-call-btn:hover{background:var(--crimson-deep)}
   .menu-toggle{display:flex}
   .phone-icon-btn{display:flex}
+  .brand-location{display:none}
   .banner .wrap.banner-static{display:none}
   .banner-marquee{display:block;overflow:hidden}
   .banner-track{display:flex;width:max-content;animation:banner-scroll 16s linear infinite}
