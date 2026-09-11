@@ -16,7 +16,7 @@
   --shadow-lift:0 30px 54px -20px rgba(11,37,69,.5);
   --radius:2px;
   --maxw:1120px;
-  --header-h:70px;
+  --header-h:78px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -105,17 +105,17 @@ header{
 .nav{
   max-width:var(--maxw);margin-inline:auto;
   display:flex;align-items:center;justify-content:space-between;
-  padding-block:12px;gap:16px;
+  padding-block:8px;gap:16px;
 }
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}
 .brand-mark{
-  width:44px;height:44px;object-fit:contain;flex:none;display:block;
+  width:60px;height:60px;object-fit:contain;flex:none;display:block;
 }
 .brand-text{display:flex;flex-direction:column;line-height:1.15}
-.brand-text strong{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.05rem;letter-spacing:.02em;color:var(--navy)}
+.brand-text strong{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.20rem;letter-spacing:.02em;color:var(--navy)}
 :root[data-theme="dark"] .brand-text strong{color:var(--ink)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brand-text strong{color:var(--ink)}}
-.brand-text span{font-size:.66rem;color:var(--ink-soft);letter-spacing:.04em}
+.brand-text span{font-family:"Big Shoulders Display",sans-serif;font-size:1.35rem;color:#d70907;letter-spacing:.04em;font-weight:900}
 
 nav.links{display:flex;align-items:center;gap:26px}
 nav.links a{
@@ -708,7 +708,7 @@ footer{border-top:1px solid var(--border);padding-block:36px;background:var(--bg
 .scroll-top-btn{
   position:fixed;right:20px;bottom:20px;z-index:60;
   width:44px;height:44px;display:flex;align-items:center;justify-content:center;
-  background:var(--navy);color:#fff;border:1px solid var(--border);border-radius:50%;
+  background:var(--navy);color:#fff;border:3px solid #ffffff;border-radius:50%;
   box-shadow:var(--shadow-lift);cursor:pointer;
   opacity:0;visibility:hidden;transform:translateY(8px);
   transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background-color .2s ease;
