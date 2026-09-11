@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greater Intracoastal Republican Club</title>
+<meta name="description" content="Official site of the Greater Intracoastal Republican Club — Duval County, FL. Meetings, volunteer opportunities, and membership.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Libre+Franklin:wght@900&family=Public+Sans:wght@400;500;600;700;800&display=swap">
+</head>
+<body>
+<header>
+  <div class="nav wrap">
+    <a class="brand" href="#top">
+      <img class="brand-mark" src="images/elephant-logo-v2.png" alt="GIRC Republican elephant emblem">
+      <span class="brand-text">
+        <strong>Greater Intracoastal</strong>
+        <span>REPUBLICAN CLUB &middot; DUVAL COUNTY, FL</span>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#meetings">Meetings</a>
+      <a href="#involved">Volunteer</a>
+      <a href="#join">Membership</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-outline mobile-join-btn" href="#join">Become a Member</a>
+      <a class="btn btn-crimson mobile-call-btn" href="tel:19048870511">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call (904) 887-0511
+      </a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:10px">
+      <a class="btn btn-crimson" href="#join">Join the Club</a>
+      <a class="phone-icon-btn" href="tel:19048870511" aria-label="Call (904) 887-0511">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <svg class="hero-stars" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1200 500" aria-hidden="true">
+      <g fill="#ffffff">
+        <polygon points="120,60 126,78 145,78 130,89 136,107 120,96 104,107 110,89 95,78 114,78" opacity=".18"/>
+        <polygon points="1080,120 1084,132 1097,132 1087,140 1091,152 1080,144 1069,152 1073,140 1063,132 1076,132" opacity=".14"/>
+        <polygon points="980,340 985,354 1000,354 988,363 993,377 980,368 967,377 972,363 960,354 975,354" opacity=".12"/>
+        <polygon points="200,400 204,412 217,412 207,420 211,432 200,424 189,432 193,420 183,412 196,412" opacity=".1"/>
+      </g>
+    </svg>
+    <div class="hero-inner">
+      <span class="eyebrow"><span class="star"></span>Greater Intracoastal Republican Club &middot; Duval County</span>
+      <h1>Land of the Free,<br><em>Home&nbsp;of&nbsp;the&nbsp;Brave!</em></h1>
+      <p class="lede">The preeminent Republican club in Duval County &mdash; uniting neighbors across the Intracoastal for conservative values, honest debate, and the work of winning elections.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-crimson" href="#join">Join the Club &mdash; $35/yr</a>
+        <button class="btn btn-outline btn-on-navy" id="openFlyerBtn" type="button">Club Meeting Details</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="banner">
+    <div class="wrap banner-static"><span class="star"></span><p>Grow the Republican base in our district &mdash; make Duval County red</p><span class="star"></span></div>
+    <div class="banner-marquee">
+      <div class="banner-track">
+        <span class="banner-item"><span class="star"></span><p>Grow the Republican base in our district &mdash; make Duval County red</p><span class="star"></span></span>
+        <span class="banner-item" aria-hidden="true"><span class="star"></span><p>Grow the Republican base in our district &mdash; make Duval County red</p><span class="star"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <section id="dashboard" class="dashboard-section">
+    <div class="wrap">
+      <div class="section-head dashboard-head">
+        <span class="eyebrow"><span class="star"></span>Club Dashboard</span>
+        <h2>Stay Informed. Get Involved.</h2>
+        <p>Keep up with the latest GIRC news, meeting schedules, events, and opportunities to engage with fellow members and get involved in the work of our club.</p>
+      </div>
+      <div class="dashboard-grid">
+        <div class="card dash-card dash-news">
+          <div class="dash-card-head"><span class="star"></span><h3>News Flash</h3></div>
+          <ul class="news-list">
+            <li>
+              <span class="news-date">This Month</span>
+              <p>Phone banking &amp; a guest speaker at Queen&rsquo;s Harbour &mdash; view the flyer above for the exact date and time.</p>
+            </li>
+            <li>
+              <span class="news-date">Ongoing</span>
+              <p>Canvassing and phone banking volunteers are needed every week &mdash; sign up below to join the next shift.</p>
+            </li>
+            <li>
+              <span class="news-date">Anytime</span>
+              <p>Membership is open year-round for $35/yr and includes a standing invite to every meeting and speaker series.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card dash-card dash-calendar">
+          <div class="dash-card-head"><span class="star"></span><h3>Calendar</h3></div>
+          <div class="calendar">
+            <div class="calendar-head"><span>September 2026</span></div>
+            <div class="calendar-grid">
+              <span class="cal-dow">S</span><span class="cal-dow">M</span><span class="cal-dow">T</span><span class="cal-dow">W</span><span class="cal-dow">T</span><span class="cal-dow">F</span><span class="cal-dow">S</span>
+              <span class="cal-day cal-blank"></span><span class="cal-day cal-blank"></span>
+              <span class="cal-day">1</span><span class="cal-day">2</span><span class="cal-day">3</span><span class="cal-day">4</span><span class="cal-day">5</span>
+              <span class="cal-day">6</span><span class="cal-day">7</span><span class="cal-day">8</span><span class="cal-day">9</span><span class="cal-day">10</span><span class="cal-day is-today">11</span><span class="cal-day">12</span>
+              <span class="cal-day">13</span><span class="cal-day">14</span><span class="cal-day">15</span><span class="cal-day">16</span><span class="cal-day">17</span><span class="cal-day">18</span><span class="cal-day">19</span>
+              <span class="cal-day">20</span><span class="cal-day">21</span><span class="cal-day">22</span><span class="cal-day">23</span><span class="cal-day">24</span><span class="cal-day">25</span><span class="cal-day">26</span>
+              <span class="cal-day">27</span><span class="cal-day">28</span><span class="cal-day">29</span><span class="cal-day">30</span>
+            </div>
+          </div>
+          <ul class="calendar-upcoming">
+            <li><span class="star"></span>Monthly meeting details &raquo; <button type="button" id="openFlyerLink">See flyer</button></li>
+          </ul>
+        </div>
+
+        <div class="card dash-actions">
+          <span class="eyebrow"><span class="star"></span>Quick Links</span>
+          <button class="btn btn-crimson" id="openSubscribeBtn" type="button">Subscribe</button>
+          <button class="btn btn-outline" id="openMembersHubBtn" type="button">Members Hub</button>
+          <button class="btn btn-outline" id="openMembershipBtn2" type="button">Join the club</button>
+          <a class="btn btn-outline" href="#involved">Volunteer</a>
+          <a class="btn btn-blue" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="section-head">
+          <span class="eyebrow"><span class="star"></span>Who We Are</span>
+          <h2>Together, We Make a Difference</h2>
+        </div>
+        <div class="about-copy">
+          <p>Greater Intracoastal Republican Club (GIRC) exists to empower Republican voices and unite local conservatives around shared values and informed political discourse. We&rsquo;re proud to serve the Jacksonville Beaches, Queens Harbor, and the greater Intracoastal area.</p>
+          <p>Members gather for educational forums with expert speakers, campaign events and fundraisers for Republican candidates, and networking opportunities for professionals and community leaders &mdash; all in service of one mission: growing the Republican base and turning Duval County red.</p>
+        </div>
+      </div>
+      <a class="register-vote-block" href="https://registertovoteflorida.gov/home" target="_blank" rel="noopener" aria-label="Register to vote at RegisterToVoteFlorida.gov (opens in a new tab)">
+        <img src="images/register-to-vote.jpg" alt="Register to Vote &mdash; United States of America" loading="lazy">
+        <span class="badge-navy">Register to Vote <span aria-hidden="true">&rarr;</span></span>
+      </a>
+    </div>
+  </section>
+
+  <section id="meetings" style="background:var(--bg-alt);border-block:1px solid var(--border)">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow"><span class="star"></span>This Month</span>
+        <h2>Club meetings &amp; phone banking</h2>
+        <p>GIRC meets monthly at the Queen&rsquo;s Harbour Yacht &amp; Country Club for phone banking parties, GOTV briefings, and guest speakers. Check this month&rsquo;s flyer for the exact date, time, and topic.</p>
+      </div>
+      <div class="card meeting-card">
+        <button class="meeting-thumb" id="openFlyerThumb" type="button" aria-label="View full meeting flyer">
+          <span class="tag"><span class="star"></span>Latest Flyer</span>
+          <img src="images/flyer.jpg" alt="Thumbnail of this month's GIRC meeting flyer" loading="lazy">
+        </button>
+        <div class="meeting-body">
+          <span class="eyebrow"><span class="star"></span>Queen&rsquo;s Harbour Yacht &amp; Country Club</span>
+          <h3>Phone Banking &amp; Guest Speaker Night</h3>
+          <p>238 Queens Harbor Blvd, Multi-Purpose Room. Food &amp; drinks provided, BYOB. Tell the gate guard you&rsquo;re headed to the Republican meeting and bring photo ID &mdash; arrive a few minutes early to clear the gate.</p>
+          <div class="meeting-actions">
+            <button class="btn btn-crimson" id="openFlyerBtn2" type="button">View Full Flyer</button>
+            <a class="btn btn-outline" href="tel:19048870511">Call With Questions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="involved">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow"><span class="star"></span>Get Involved</span>
+        <h2>Grassroots wins elections</h2>
+        <p>From your first phone call to Election Day, there&rsquo;s a role for every volunteer.</p>
+      </div>
+      <div class="involve-grid">
+        <div class="card involve-card">
+          <span class="star"></span>
+          <h3>Canvassing</h3>
+          <p>Walk neighborhoods, knock doors, and talk directly with Duval County voters.</p>
+        </div>
+        <div class="card involve-card">
+          <span class="star"></span>
+          <h3>Phone Banking</h3>
+          <p>Join our monthly phone banking parties &mdash; scripts, snacks, and good company provided.</p>
+        </div>
+        <div class="card involve-card">
+          <span class="star"></span>
+          <h3>GOTV Efforts</h3>
+          <p>Help drive turnout for Republican candidates in every primary and general election.</p>
+        </div>
+        <div class="card involve-card">
+          <span class="star"></span>
+          <h3>Social &amp; Events</h3>
+          <p>Support social media outreach and help run club events, forums, and fundraisers.</p>
+        </div>
+      </div>
+      <div class="card volunteer-form-card" id="volunteerFormCard">
+        <div class="volunteer-form-grid">
+          <figure class="volunteer-form-media">
+            <img src="images/buttons.jpg" alt="A pile of Republican and conservative campaign buttons" loading="lazy">
+          </figure>
+          <form class="volunteer-form" id="volunteerForm" novalidate>
+            <div class="volunteer-form-title">
+              <span class="star"></span>
+              <h3>Volunteer Sign-Up</h3>
+            </div>
+            <div class="volunteer-form-fields">
+              <label class="sr-only" for="volName">Full Name</label>
+              <input type="text" id="volName" name="name" placeholder="Full name" required autocomplete="name">
+              <label class="sr-only" for="volEmail">Email</label>
+              <input type="email" id="volEmail" name="email" placeholder="Email" required autocomplete="email">
+              <label class="sr-only" for="volPhone">Phone</label>
+              <input type="tel" id="volPhone" name="phone" placeholder="Phone (optional)" autocomplete="tel">
+              <button class="btn btn-crimson" type="submit">Sign Me Up</button>
+            </div>
+            <div class="volunteer-form-interests">
+              <span class="interests-label">Interested in</span>
+              <label class="chip"><input type="checkbox" name="interest" value="Canvassing"><span>Canvassing</span></label>
+              <label class="chip"><input type="checkbox" name="interest" value="Phone Banking"><span>Phone Banking</span></label>
+              <label class="chip"><input type="checkbox" name="interest" value="GOTV Efforts"><span>GOTV</span></label>
+              <label class="chip"><input type="checkbox" name="interest" value="Social &amp; Events"><span>Social &amp; Events</span></label>
+              <span class="form-note" id="volunteerFormNote" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" style="background:var(--bg-alt);border-block:1px solid var(--border)">
+    <div class="wrap">
+      <div class="membership">
+        <div class="membership-copy">
+          <span class="eyebrow"><span class="star"></span>Membership</span>
+          <h2>Become a member of GIRC</h2>
+          <p>Annual dues keep our meetings, speaker series, and GOTV efforts running &mdash; and connect you with fellow conservatives across the Intracoastal.</p>
+          <ul class="membership-list">
+            <li><span class="star"></span>Standing invitation to every club meeting &amp; phone bank</li>
+            <li><span class="star"></span>Early notice of guest speakers &amp; candidate forums</li>
+            <li><span class="star"></span>A direct role in GOTV efforts for Republican candidates</li>
+          </ul>
+        </div>
+        <div class="price">
+          <strong>$35</strong>
+          <span>Per Year</span>
+          <button class="btn btn-crimson" id="openMembershipBtn" type="button">Join Today</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="#top">
+        <img class="brand-mark" src="images/elephant-logo-v2.png" alt="GIRC Republican elephant emblem">
+        <span class="brand-text"><strong>Greater Intracoastal</strong><span>REPUBLICAN CLUB</span></span>
+      </a>
+      <p>Uniting Duval County Republicans across the Jacksonville Beaches, Queens Harbor, and the greater Intracoastal area.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Contact</h4>
+      <a href="tel:19048870511">(904) 887-0511</a>
+      <a href="mailto:presidentgirc@gmail.com">presidentgirc@gmail.com</a>
+      <p>13245 Atlantic Blvd, Suite 4237<br>Jacksonville, FL 32225</p>
+    </div>
+    <div class="foot-col">
+      <h4>Explore</h4>
+      <a href="#about">About the Club</a>
+      <a href="#meetings">Meetings</a>
+      <a href="#involved">Volunteer</a>
+      <a href="https://duvalelections.com" target="_blank" rel="noopener">Duval Elections</a>
+    </div>
+  </div>
+  <div class="foot-bottom wrap">
+    <span>&copy; <span id="year"></span> Greater Intracoastal Republican Club</span>
+    <span>Paid for by the Greater Intracoastal Republican Club</span>
+  </div>
+</footer>
+
+<div class="modal-backdrop" id="flyerModal" role="dialog" aria-modal="true" aria-labelledby="flyerModalTitle">
+  <div class="modal modal-flyer">
+    <div class="modal-head">
+      <span class="eyebrow" id="flyerModalTitle"><span class="star"></span>This Month&rsquo;s Meeting</span>
+      <button class="modal-close" id="closeFlyer" type="button" aria-label="Close">&times;</button>
+    </div>
+    <img src="images/flyer.jpg" alt="Greater Intracoastal Republican Club meeting flyer with full event details">
+    <div class="modal-foot">
+      <a class="btn btn-crimson" href="#meetings" id="flyerDetailsLink">Meeting Details</a>
+      <a class="btn btn-blue" href="tel:19048870511" id="flyerCallLink">Call With Questions</a>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="membershipModal" role="dialog" aria-modal="true" aria-labelledby="membershipModalTitle">
+  <div class="modal modal-form">
+    <div class="modal-head">
+      <span class="eyebrow" id="membershipModalTitle"><span class="star"></span>Membership Registration</span>
+      <button class="modal-close" id="closeMembership" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-intro">Join the Greater Intracoastal Republican Club for $35/year. Fill out the form below and we&rsquo;ll follow up by email with payment instructions.</p>
+      <form class="compact-form" id="membershipForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="memFirst">First Name</label>
+            <input type="text" id="memFirst" name="firstName" required autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="memLast">Last Name</label>
+            <input type="text" id="memLast" name="lastName" required autocomplete="family-name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="memEmail">Email</label>
+            <input type="email" id="memEmail" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="memPhone">Phone</label>
+            <input type="tel" id="memPhone" name="phone" required autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-row form-row-3">
+          <div class="field">
+            <label for="memCity">City</label>
+            <input type="text" id="memCity" name="city" required autocomplete="address-level2">
+          </div>
+          <div class="field">
+            <label for="memState">State</label>
+            <input type="text" id="memState" name="state" required autocomplete="address-level1" value="FL" maxlength="2">
+          </div>
+          <div class="field">
+            <label for="memZip">ZIP</label>
+            <input type="text" id="memZip" name="zip" required autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?">
+          </div>
+        </div>
+        <div class="field">
+          <label for="memNotes">How would you like to get involved? (optional)</label>
+          <textarea id="memNotes" name="notes" rows="3" placeholder="Canvassing, phone banking, events&hellip;"></textarea>
+        </div>
+        <label class="check">
+          <input type="checkbox" id="memConfirm" name="confirm" required>
+          <span>I support the mission of the Greater Intracoastal Republican Club and would like to join as a dues-paying member ($35/yr).</span>
+        </label>
+        <div class="form-actions membership-actions">
+          <button class="btn btn-outline" id="closeMembership2" type="button">Cancel</button>
+          <button class="btn btn-crimson" type="submit">Submit Membership Application</button>
+        </div>
+        <p class="form-fine-print" id="membershipFormNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="subscribeModal" role="dialog" aria-modal="true" aria-labelledby="subscribeModalTitle">
+  <div class="modal modal-form">
+    <div class="modal-head">
+      <span class="eyebrow" id="subscribeModalTitle"><span class="star"></span>Subscribe for Updates</span>
+      <button class="modal-close" id="closeSubscribe" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-intro">Get GIRC news and meeting announcements sent straight to your inbox. Fill out the form below and we&rsquo;ll add you to the list.</p>
+      <form class="compact-form" id="subscribeForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="subName">Name</label>
+            <input type="text" id="subName" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="subEmail">Email</label>
+            <input type="email" id="subEmail" name="email" required autocomplete="email">
+          </div>
+        </div>
+        <div class="subscribe-info">
+          <span class="star"></span>
+          <p>By subscribing, you&rsquo;ll receive the latest GIRC news, event updates, and monthly meeting announcements straight to your inbox.</p>
+        </div>
+        <div class="form-actions subscribe-actions">
+          <button class="btn btn-crimson" type="submit">Subscribe</button>
+          <button class="btn btn-outline" id="closeSubscribe2" type="button">Cancel</button>
+        </div>
+        <p class="form-fine-print" id="subscribeFormNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="membersLoginModal" role="dialog" aria-modal="true" aria-labelledby="membersLoginModalTitle">
+  <div class="modal modal-form modal-login">
+    <div class="modal-head">
+      <span class="eyebrow" id="membersLoginModalTitle"><span class="star"></span>Members Hub</span>
+      <button class="modal-close" id="closeMembersLogin" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body login-body">
+      <div class="login-icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+      </div>
+      <p class="modal-intro login-intro">Sign in to access member resources, event RSVPs, and club updates.</p>
+      <form class="compact-form" id="membersLoginForm" novalidate>
+        <div class="field">
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" name="email" required autocomplete="email" placeholder="you@email.com">
+        </div>
+        <div class="field">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" name="password" required autocomplete="current-password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+        </div>
+        <div class="login-row">
+          <label class="check">
+            <input type="checkbox" id="loginRemember" name="remember">
+            <span>Keep me signed in</span>
+          </label>
+          <button type="button" class="link-btn" id="openForgotPassword">Forgot password?</button>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-crimson btn-block" type="submit">Log In</button>
+        </div>
+        <p class="form-fine-print" id="membersLoginFormNote" role="status" aria-live="polite"></p>
+      </form>
+      <div class="login-divider"><span>Not a member yet?</span></div>
+      <button type="button" class="btn btn-outline btn-block" id="switchToJoinBtn">Join the Club</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  var siteHeader = document.querySelector('header');
+  function syncHeaderHeight(){
+    if(!siteHeader){ return; }
+    document.documentElement.style.setProperty('--header-h', siteHeader.offsetHeight + 'px');
+  }
+  syncHeaderHeight();
+  window.addEventListener('resize', syncHeaderHeight);
+  window.addEventListener('load', syncHeaderHeight);
+  if(document.fonts && document.fonts.ready){ document.fonts.ready.then(syncHeaderHeight); }
+
+  var menuToggle = document.getElementById('menuToggle');
+  var navLinks = document.getElementById('navLinks');
+  menuToggle.addEventListener('click', function(){
+    var open = navLinks.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  navLinks.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){ navLinks.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); });
+  });
+
+  var modalConfigs = [
+    {
+      modal: document.getElementById('flyerModal'),
+      openers: [document.getElementById('openFlyerBtn'), document.getElementById('openFlyerBtn2'), document.getElementById('openFlyerThumb'), document.getElementById('openFlyerLink')],
+      closers: [document.getElementById('closeFlyer'), document.getElementById('flyerDetailsLink'), document.getElementById('flyerCallLink')]
+    },
+    {
+      modal: document.getElementById('membershipModal'),
+      openers: [document.getElementById('openMembershipBtn'), document.getElementById('openMembershipBtn2')],
+      closers: [document.getElementById('closeMembership'), document.getElementById('closeMembership2')]
+    },
+    {
+      modal: document.getElementById('subscribeModal'),
+      openers: [document.getElementById('openSubscribeBtn')],
+      closers: [document.getElementById('closeSubscribe'), document.getElementById('closeSubscribe2')]
+    },
+    {
+      modal: document.getElementById('membersLoginModal'),
+      openers: [document.getElementById('openMembersHubBtn')],
+      closers: [document.getElementById('closeMembersLogin')]
+    }
+  ];
+  var lastFocus = null;
+  var openCfg = null;
+
+  function openModal(cfg){
+    if(!cfg || !cfg.modal){ return; }
+    lastFocus = document.activeElement;
+    cfg.modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    openCfg = cfg;
+    var focusTarget = cfg.modal.querySelector('.modal-close');
+    if(focusTarget){ focusTarget.focus(); }
+  }
+  function closeModal(cfg){
+    if(!cfg || !cfg.modal){ return; }
+    cfg.modal.classList.remove('open');
+    document.body.style.overflow = '';
+    if(openCfg === cfg){ openCfg = null; }
+    if(lastFocus){ lastFocus.focus(); }
+  }
+  modalConfigs.forEach(function(cfg){
+    if(!cfg.modal){ return; }
+    cfg.openers.forEach(function(el){ if(el){ el.addEventListener('click', function(){ openModal(cfg); }); } });
+    cfg.closers.forEach(function(el){ if(el){ el.addEventListener('click', function(){ closeModal(cfg); }); } });
+    cfg.modal.addEventListener('click', function(e){ if(e.target === cfg.modal){ closeModal(cfg); } });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && openCfg){ closeModal(openCfg); }
+  });
+
+  window.addEventListener('load', function(){
+    var flyerCfg = modalConfigs[0];
+    setTimeout(function(){ openModal(flyerCfg); }, 250);
+  });
+
+  function buildMailto(to, subject, lines){
+    var body = lines.filter(function(l){ return !!l; }).join('\n');
+    return 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  }
+
+  var volunteerForm = document.getElementById('volunteerForm');
+  if(volunteerForm){
+    volunteerForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(typeof volunteerForm.reportValidity === 'function' && !volunteerForm.reportValidity()){ return; }
+      var data = new FormData(volunteerForm);
+      var name = (data.get('name') || '').toString();
+      var interests = data.getAll('interest');
+      var lines = [
+        'Name: ' + name,
+        'Email: ' + (data.get('email') || ''),
+        'Phone: ' + (data.get('phone') || ''),
+        'Interested in: ' + (interests.length ? interests.join(', ') : 'Not specified')
+      ];
+      window.location.href = buildMailto('presidentgirc@gmail.com', 'GIRC Volunteer Sign-Up' + (name ? ' \u2014 ' + name : ''), lines);
+      var note = document.getElementById('volunteerFormNote');
+      if(note){ note.textContent = 'Opening your email app to send your info\u2026'; }
+    });
+  }
+
+  document.querySelectorAll('.chip input[type="checkbox"]').forEach(function(cb){
+    var chip = cb.closest('.chip');
+    if(!chip){ return; }
+    if(cb.checked){ chip.classList.add('is-checked'); }
+    cb.addEventListener('change', function(){
+      chip.classList.toggle('is-checked', cb.checked);
+    });
+  });
+
+  var membershipForm = document.getElementById('membershipForm');
+  if(membershipForm){
+    membershipForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(typeof membershipForm.reportValidity === 'function' && !membershipForm.reportValidity()){ return; }
+      var data = new FormData(membershipForm);
+      var fullName = ((data.get('firstName') || '') + ' ' + (data.get('lastName') || '')).trim();
+      var lines = [
+        'Name: ' + fullName,
+        'Email: ' + (data.get('email') || ''),
+        'Phone: ' + (data.get('phone') || ''),
+        'City: ' + (data.get('city') || ''),
+        'State: ' + (data.get('state') || ''),
+        'ZIP: ' + (data.get('zip') || ''),
+        'How they want to get involved: ' + (data.get('notes') || 'Not specified'),
+        'Membership: Individual \u2014 $35/yr'
+      ];
+      window.location.href = buildMailto('presidentgirc@gmail.com', 'GIRC Membership Application' + (fullName ? ' \u2014 ' + fullName : ''), lines);
+      var note = document.getElementById('membershipFormNote');
+      if(note){ note.textContent = 'Opening your email app to send your application\u2026'; }
+    });
+  }
+
+  var subscribeForm = document.getElementById('subscribeForm');
+  if(subscribeForm){
+    subscribeForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(typeof subscribeForm.reportValidity === 'function' && !subscribeForm.reportValidity()){ return; }
+      var data = new FormData(subscribeForm);
+      var name = (data.get('name') || '').toString();
+      var lines = [
+        'Name: ' + name,
+        'Email: ' + (data.get('email') || ''),
+        'Subscribe to: GIRC News, Updates & Meeting Announcements'
+      ];
+      window.location.href = buildMailto('presidentgirc@gmail.com', 'Subscribe to GIRC Updates' + (name ? ' \u2014 ' + name : ''), lines);
+      var note = document.getElementById('subscribeFormNote');
+      if(note){ note.textContent = 'Opening your email app to send your subscription\u2026'; }
+    });
+  }
+
+  var membersLoginForm = document.getElementById('membersLoginForm');
+  if(membersLoginForm){
+    membersLoginForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(typeof membersLoginForm.reportValidity === 'function' && !membersLoginForm.reportValidity()){ return; }
+      var note = document.getElementById('membersLoginFormNote');
+      if(note){ note.textContent = 'The Members Hub is launching soon \u2014 we\u2019ll email members when accounts are ready.'; }
+    });
+  }
+
+  var forgotPasswordBtn = document.getElementById('openForgotPassword');
+  if(forgotPasswordBtn){
+    forgotPasswordBtn.addEventListener('click', function(){
+      var note = document.getElementById('membersLoginFormNote');
+      if(note){ note.textContent = 'Password recovery will be available at launch. Need help now? Email presidentgirc@gmail.com.'; }
+    });
+  }
+
+  var switchToJoinBtn = document.getElementById('switchToJoinBtn');
+  if(switchToJoinBtn){
+    switchToJoinBtn.addEventListener('click', function(){
+      var loginCfg = null, joinCfg = null;
+      modalConfigs.forEach(function(cfg){
+        if(cfg.modal === document.getElementById('membersLoginModal')){ loginCfg = cfg; }
+        if(cfg.modal === document.getElementById('membershipModal')){ joinCfg = cfg; }
+      });
+      closeModal(loginCfg);
+      openModal(joinCfg);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
